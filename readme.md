@@ -16,6 +16,9 @@ Have options in cloud like to edit your code:
 - GLITCH: https://glitch.com/
 
 
+Formik: https://formik.org/
+REACT HOOK FORM: https://react-hook-form.com/
+
 Free photos website: https://www.pexels.com/pt-br/
 
 To work with this you'll need install node.js if you dont have then test: 
