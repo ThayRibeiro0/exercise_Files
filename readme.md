@@ -20,9 +20,12 @@ Formik: https://formik.org/
 REACT HOOK FORM: https://react-hook-form.com/
 USEHOOKS: https://usehooks.com/
 
+Snowtooth TO USE GRAPHQL: https://snowtooth.moonhighway.com/
+https://graphql.org/
+
 Data:
-Snowtooth: https://snowtooth.moonhighway.com/
 https://api.github.com/users/moonhighway
+
 
 Free photos website: https://www.pexels.com/pt-br/
 
