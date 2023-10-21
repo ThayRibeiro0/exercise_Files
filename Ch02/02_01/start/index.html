@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <script src="https://livejs.com/live.js"></script>
+    <!-- <script src="https://livejs.com/live.js"></script> -->
     <script
       src="https://unpkg.com/react@17/umd/react.development.js"
       crossorigin
@@ -36,18 +36,50 @@
           <section>
             <p>
               WE SERVE THE MOST {props.adjective}{" "} FOOD AROUND.
-              </p>
-              </section>
+            </p>
+            <img 
+            height={200} 
+            // colocando imagens com copy address picture src="https://media.istockphoto.com/id/998334124/photo/delicious-pancake-blinis-with-bacon-and-chili-pepper-new-restau.jpg?s=612x612&w=is&k=20&c=iOGnAbRaPDJFHceTj6tm8EjJzuG7MNU8dP44Tuy5tFU="
+            src="./restaurant.jpg"
+            alt="A delicious food to your lunch" />
+            <ul>
+              {props.dishes.map((dish) => (
+                <li key={dish.id}>{dish.title}</li>
+              ))}
+            </ul>
+          </section>
               )
             }
             
+            function Footer(props){
+              return (
+                <footer>
+                <p>Copyright {props.year} </p>
+                  </footer>
+              )
+            }
+
+            const dishes = [
+              "Black Bean Soup",
+              "Pizza",
+              "Cuzcuz"
+            ]
+
+            const dishObjects = dishes.map(
+              (dish, i) => ({
+                id: i,
+                title: dish
+              })
+            )
 
             function App() {
               return(
-                <div>
-                <Header name="Thays"/>
-                <Main adjective="amazing" />
-                </div>
+                <React.Fragment>
+                  <Header name="Thays"/>
+                  <Main adjective="amazing" dishes={dishObjects} />
+                  <Footer 
+                    year={new Date().getFullYear()}/>
+                </React.Fragment>
               )
             }
             // let robot = "🤷🏻‍♂️"
