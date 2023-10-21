@@ -18,6 +18,7 @@ Have options in cloud like to edit your code:
 
 Formik: https://formik.org/
 REACT HOOK FORM: https://react-hook-form.com/
+USEHOOKS: https://usehooks.com/
 
 Free photos website: https://www.pexels.com/pt-br/
 
