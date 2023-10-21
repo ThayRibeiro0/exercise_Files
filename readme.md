@@ -23,8 +23,7 @@ USEHOOKS: https://usehooks.com/
 Snowtooth TO USE GRAPHQL: https://snowtooth.moonhighway.com/
 https://graphql.org/
 
-working with react router 6:
-
+working with react router 6: https://reactrouter.com/en/main
 
 Data:
 https://api.github.com/users/moonhighway
