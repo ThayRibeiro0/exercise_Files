@@ -58,7 +58,7 @@ Review about React.
      -->
 ## What each of the files you wrote for the project contains and does?
 
-The project use the html and some commands in code.
+The project use the html, javascript and css and some commands in code.
 
 ## Referência
 - [Youtube] - React.js Essential Training - Linkedin course with certification of conclusion - (https://www.linkedin.com/learning/react-js-essential-training-14836121/adding-component-properties)
