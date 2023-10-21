@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://livejs.com/live.js"></script>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>React ⚛️</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- <h1>Getting Started with React</h1> -->
+    <!-- using separate variable -->
+    <!-- https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=EoUwhgxgLgIg8gWQHQCcQDsAmIUAoBQABMScQDwCuANgHxGkNlUCWNgfBuDsu4Dwbg3_uCwBICEyQPB_ZAPQs6DRhLaAt3d6CR41vSnkJgXg3A4TsLAAmRKJqxqOo0ANEdKYA9hAoBbDFCQBzEFACiVEI_RQAQgCeAJKYuABEKNbWUOEAlJaEcUA&debug=false&forceAllTransforms=false&modules=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.23.2&externalPlugins=&assumptions=%7B%7D
+    to work with codes that its not supported in browser -->
+    <script type="text/babel">
+
+      function Header(props) {
+        console.log(props)
+        return (
+          <header>
+           <h1>{props.name}`S KITCHEN</h1> 
+            </header>
+        )
+      }
+      
+      function Main(props) {
+        return (
+          <section>
+            <p>
+              WE SERVE THE MOST {props.adjective}{" "} FOOD AROUND.
+              </p>
+              </section>
+              )
+            }
+            
+
+            function App() {
+              return(
+                <div>
+                <Header name="Thays"/>
+                <Main adjective="amazing" />
+                </div>
+              )
+            }
+            // let robot = "🤷🏻‍♂️"
+            // let butterfly = "🧚🏻‍♂️"
+            // let cut = "💇🏻‍♀️"
+            // let name = "React"
+      
+            // React.createElement(
+            //   "ul", 
+            //   { style: { color: "blue"} }, 
+            //   React.createElement("li", null, "Monday"),
+            //   React.createElement("li", null, "Tuesday"),
+            //   React.createElement("li", null, "Wenesday"),
+            // )
+      ReactDOM.render(
+          <App />,
+         
+        
+        // <ul>
+        //   <li>{robot}</li>
+        //   <li>{butterfly}</li>
+        //   <li>{cut}</li>
+        //   <li>{name.toUpperCase()}</li>
+        //   <li>{name.length}</li>
+        // </ul>,
+        document.getElementById("root")
+      )
+    </script>
+  </body>
+</html>
