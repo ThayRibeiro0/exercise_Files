@@ -38,7 +38,7 @@ Then everything will be setup for us from scratch
 
 # Installation
 
-### `npm install`
+### `npm install` or `npm i`
 ### `npm start`
     
 <!-- 
