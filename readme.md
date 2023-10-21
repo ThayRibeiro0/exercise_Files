@@ -23,6 +23,9 @@ USEHOOKS: https://usehooks.com/
 Snowtooth TO USE GRAPHQL: https://snowtooth.moonhighway.com/
 https://graphql.org/
 
+working with react router 6:
+
+
 Data:
 https://api.github.com/users/moonhighway
 
@@ -50,6 +53,7 @@ Then everything will be setup for us from scratch
 # Installation
 
 ### `npm install` or `npm i`
+### `npm install react-router-dom@6`
 ### `npm start`
     
 <!-- 
