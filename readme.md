@@ -49,13 +49,13 @@ Review about React.
   <img src="https://img.shields.io/github/last-commit/ThayRibeiro0/project0.2?style=plastic" />
 </p>
 
-<!-- <p align="center">
+</p align="center">
     <img src="https://img.shields.io/badge/-Javascript/total?logo=Javascript" />
     <img src="https://img.shields.io/badge/HTML-E34F26?&logo=html5&logoColor=white&style=flat"  />
     <img src="https://img.shields.io/badge/CSS-3776AB?&logo=css3&logoColor=white&style=flat" />
     <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat">
 </p>
-     -->
+
 ## What each of the files you wrote for the project contains and does?
 
 The project use the html, javascript and css and some commands in code.
