@@ -18,6 +18,29 @@ Have options in cloud like to edit your code:
 
 Free photos website: https://www.pexels.com/pt-br/
 
+To work with this you'll need install node.js if you dont have then test: 
+  node -v 
+  npm -v
+  if its high then 5.2 its good!
+  
+See if appear some version about it if not download of this website and install the current version:
+https://nodejs.org/en
+
+To generate react project we use commands from this website:
+https://create-react-app.dev/
+
+and run in the terminal: npx create-react-app nameofproject
+Then everything will be setup for us from scratch
+
+"react": react its what we need to create the react components
+"react-dom": its how we add the app to the page
+"react-scripts": how we handle all of our bundlling
+
+# Installation
+
+### `npm install`
+### `npm start`
+    
 <!-- 
 run in the terminal to this project:
 ### `npm install`
