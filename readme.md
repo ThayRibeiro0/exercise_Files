@@ -28,6 +28,22 @@ working with react router 6: https://reactrouter.com/en/main
 Data:
 https://api.github.com/users/moonhighway
 
+Run `npm test` create two documents 
+function.js and inside:
+export default function timesTwo(a) {
+    return a * 2
+}
+
+function.test.js and inside:
+import timesTwo from "./functions"
+
+test("Multiplies by two", () => {
+    expect(timesTwo(4)).toBe(8)
+})
+
+and run npm test and will appear everythinh that you need to do to fix a error!
+
+https://jestjs.io/docs/using-matchers
 
 Free photos website: https://www.pexels.com/pt-br/
 
