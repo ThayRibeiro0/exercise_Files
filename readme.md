@@ -1,6 +1,8 @@
 # React.js Essential Training - Linkedlin course
 
 ### Use
+React documentation: https://legacy.reactjs.org/
+React Native: https://reactnative.dev/
 I download the project and open the html in the browser to see the project.
 I use the vscode to write the codes and to work with codes that its not supported in browser I used Babel in Try it out and copy and pasta the code there to use in the project and to it work I put the script below also and here the link of the website: https://babeljs.io/
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
@@ -80,7 +82,14 @@ run in the terminal to this project:
 
 ***And updates in real time to see the change that you'll do use the link `<script src="https://livejs.com/live.js"></script>` in you index.html below the meta and link.***
 
-## Deploy projects
+# Deploy to Netlify
+https://www.netlify.com/
+Conect with the github and add new site and import an existet project already commited to github, pick a repository and you do the settings and deploy, its pretty simple and if you dont have already make manually: https://app.netlify.com/drop
+
+run in the terminal `npm run build` and will generate a build folder and after this you can bring the folder for this website 
+
+## Deploy projects Github pages
+https://pages.github.com/
 Create new repository in Githib with the same name of this project `nomeoftheproject` save like public to others people can see and follow the instructions of the github.
 Open the project and terminal and run `git init`, readme create you same then jump and run `git add .`, after `git commit -m "Message commit that you would like put here"`, git branch -M main, copy and pasta the `git remove add origin url` that appear in the git with the url to dont have error and `git push -u origin main` after this upload the page and you can see the project in the github.
 
